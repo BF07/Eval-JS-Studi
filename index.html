@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="new-game" id="newGame">
+        <button id="btnGame"><i class="fa fa-light fa-circle-plus" style="color: rgb(249, 134, 153);"></i>New
+            Game
+        </button>
+    </div>
+
+    <div class="players">
+        <div class="col-player1">
+            <div class="player01" id="player1">
+                <h2 class="player1" id="player_1">Player 1</h2>
+                <p class="score" id="score0">0</p>
+            </div>
+
+            <div class="current-player1" id="currentPlayer1">
+                <p class="text">Current</p>
+                <p class="current-score" id="current0">0</p>
+            </div>
+        </div>
+        <div class="col-game">
+            <div class="de" id="de">
+                <img src="Images-dé/dé1.jpg" id="dice" class="hidden">
+            </div>
+            <div class="roll-dice" id="rollDice">
+                <button class="btn-rolldice" id="btnRollDice"><i class="fa fa-light fa-arrows-rotate"
+                        style="margin-right: 3px; color: rgb(249, 134, 153);"></i>Roll Dice</button>
+            </div>
+
+            <div class="hold" id="hold">
+                <button class="btn-hold" id="btnHold"><i class="fa fa-light fa-download"
+                        style="margin-right: 3px; color: rgb(249, 134, 153);"></i>Hold</button>
+            </div>
+        </div>
+        <div class="col-player2">
+            <div class="player02" id="player2">
+                <h2 class="player2" id="player_2">Player 2</h2>
+                <p class="score" id="score1">43</p>
+            </div>
+
+            <div class="current-player2" id="currentPlayer2">
+                <p class="text">Current</p>
+                <p class="current-score" id="current1">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

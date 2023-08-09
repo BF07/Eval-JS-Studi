@@ -1,0 +1,88 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgb(238, 238, 238) 50%, rgb(219, 218, 218) 50%);
+}
+
+.hidden {
+    display: none;
+}
+
+.new-game {
+    text-align: center;
+    text-transform: uppercase;
+
+    button {
+        background: none;
+        border: none;
+    }
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .col-player1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .current-player1 {
+        background: rgb(249, 134, 153);
+        padding: 15px;
+    }
+    
+    .col-player2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .current-player2 {
+        background: rgb(249, 134, 153);
+        padding: 15px;
+    }
+
+    .col-game {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .btn-rolldice {
+            background: none;
+            border: none;
+        }
+
+        .btn-hold {
+            background: none;
+            border: none;
+            padding-top: 100px;
+        }
+    }
+}
+
+.de {
+    background: white;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+
+
+    .number {
+        width: 10px;
+        height: 10px;
+        background: rgb(249, 134, 153);
+        border-radius: 100%;
+    }
+}
+
