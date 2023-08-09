@@ -19,44 +19,44 @@ body {
   border: none;
 }
 
-.players {
+.game {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.players .col-player1 {
+.game .col-player1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 30px;
 }
-.players .current-player1 {
+.game .current-player1 {
   background: rgb(249, 134, 153);
   padding: 15px;
 }
-.players .col-player2 {
+.game .col-player2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px;
 }
-.players .current-player2 {
+.game .current-player2 {
   background: rgb(249, 134, 153);
   padding: 15px;
 }
-.players .col-game {
+.game .col-game {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.players .col-game .btn-rolldice {
+.game .col-game .btn-rolldice {
   background: none;
   border: none;
 }
-.players .col-game .btn-hold {
+.game .col-game .btn-hold {
   background: none;
   border: none;
   padding-top: 100px;
