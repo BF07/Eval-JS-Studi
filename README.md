@@ -1,4 +1,4 @@
-# Javascript training evaluation
+# Roll Dice Game - Javascript training evaluation
 
 As part of my studies, I programmed a dice game. 
 
